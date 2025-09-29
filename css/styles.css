@@ -12,6 +12,14 @@ ul, ol {
 a {
     text-decoration: none;
 }
+/* header */
+.header-container{
+    display: flex;
+
+}
+.header-nav{
+    display: flex;
+}
 .logo {
     font-family: "Raleway", sans-serif;
 font-weight: 700;
@@ -49,6 +57,8 @@ color: #434455;
     color: #404bbf;
 }
 
+
+/* section 1 */
 .hero{
     background-color: #2e2f42;
 }
@@ -75,17 +85,20 @@ cursor: pointer;
 .hero-button:focus{
      background-color: #404BBF
 }
-.hidden .visually-hidden {
- position: absolute;
- width: 1px;
- height: 1px;
- margin: -1px;
- border: 0;
- padding: 0;
- white-space: nowrap;
- clip-path: inset(100%);
- clip: rect(0 0 0 0);
- overflow: hidden;
+
+/*section 2   */
+.hidden,
+ .visually-hidden {
+position: absolute;
+width: 1px;
+height: 1px;
+margin: -1px;
+border: 0;
+padding: 0;
+white-space: nowrap;
+clip-path: inset(100%);
+clip: rect(0 0 0 0);
+overflow: hidden;
 }
 
 .benefits{
@@ -104,6 +117,8 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
 }
+
+/* section 3 */
 .sec-team{
     background-color: #f4f4fd;
 }
@@ -140,6 +155,7 @@ color: #434455;
 }
 
 
+/* section 4 */
 .portfolio{
     font-family: "Roboto", sans-serif;
 font-weight: 700;
@@ -175,7 +191,7 @@ color: #434455;
 
 
 
-
+/* footer */
 .page-footer {
     background-color: #2e2f42;
 }
@@ -187,6 +203,9 @@ line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #4d5ae5;
+margin-bottom: 16px;
+display: inline-block;
+
 }
 .logo-part{
     font-family: "Raleway", sans-serif;
@@ -204,4 +223,5 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #f4f4fd;
+width: 264px;
 }

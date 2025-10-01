@@ -117,7 +117,7 @@ cursor: pointer;
 }
 
 .hero-button{
-    display: flex;
+    display: block;
 align-items: flex-start;
 justify-content: flex-start;
 flex-direction: row;
@@ -169,7 +169,7 @@ letter-spacing: 0.02em;
 color: #434455;
 margin-bottom: 8px;
 }
-.ben-container{
+.benefits-li{
     width: calc((100%-3*24px)/4);
 }
 /* section 3 */
@@ -248,6 +248,7 @@ color: #434455;
 /* footer */
 .page-footer {
     background-color: #2e2f42;
+    padding: 100px 0;
 }
 .footer-logo{
     font-family: "Raleway", sans-serif;

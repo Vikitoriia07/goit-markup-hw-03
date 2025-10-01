@@ -207,6 +207,7 @@ margin-bottom: 72px;
 align-items: center;
 justify-content: center;
 gap: 32px;
+
 }
 .team-list{
     font-family: "Roboto", sans-serif;
@@ -217,7 +218,9 @@ letter-spacing: 0.02em;
 text-align: center;
 color: #2e2f42;
 }
-
+.team-listt{
+    display: flex;
+}
 .team-item{
     font-family: "Roboto", sans-serif;
 font-weight: 400;

@@ -212,7 +212,7 @@ margin-bottom: 72px;
     text-align: center;
     display: flex;
     padding: 32px 16px;
-    width: 271.5px;
+   width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
 }
 .team-container{
@@ -266,12 +266,12 @@ margin-bottom: 72px;
    row-gap: 48px;
 }
 .portfolio-li{
-    width: 370px;
+  width: calc((100% - 48px) / 3);
 }
 .portfolio-container{
     border: 1px solid #e7e9fc;
     border-top: none;
-    padding: 16px 32px;
+    padding: 32px 16px;
 }
 .portf-list{
     font-family: "Roboto", sans-serif;
@@ -280,6 +280,7 @@ font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 color: #2e2f42;
+margin-bottom: 8px;
 }
 
 .portf-item{

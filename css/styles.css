@@ -16,6 +16,8 @@ a {
 .container{
     display: flex;
     width: 1158px;
+    margin: auto;
+    padding: 0px 15px;
 
 }
 .header{
@@ -83,7 +85,7 @@ color: #434455;
 /* section 1 */
 .hero{
     background-color: #2e2f42;
-    padding: 188 0;
+    padding: 188px 0;
 }
 .hero>.container{
     display: flex;
@@ -97,7 +99,7 @@ line-height: 1.07;
 letter-spacing: 0.02em;
 text-align: center;
 color: #fff;
-width: 496px;
+max-width: 496px;
 }
 .hero-button{
     font-family: "Roboto", sans-serif;
@@ -115,7 +117,7 @@ cursor: pointer;
 }
 
 .hero-button{
-    display: block;
+    display: flex;
 align-items: flex-start;
 justify-content: flex-start;
 flex-direction: row;
@@ -123,12 +125,16 @@ gap: 10px;
 border-radius: 4px;
 padding-block: 16px;
 padding-inline: 32px;
-width: 169px;
+min-width: 169px;
 height: 56px;
 border:none;
 margin-top: 48px 0px;
 }
 /*section 2   */
+.benefits-section{
+    padding: 120px 0;
+}
+
 .hidden,
  .visually-hidden {
 position: absolute;
@@ -142,7 +148,10 @@ clip-path: inset(100%);
 clip: rect(0 0 0 0);
 overflow: hidden;
 }
-
+.benefits-list{
+    display: flex;
+    gap: 24px;
+}
 .benefits{
     font-weight: 500;
      font-size: 20px;
@@ -158,8 +167,11 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
+margin-bottom: 8px;
 }
-
+.ben-container{
+    width: calc((100%-3*24px)/4);
+}
 /* section 3 */
 .sec-team{
     background-color: #f4f4fd;

@@ -180,7 +180,7 @@ color: #434455;
 
 }
 .benefits-li{
-  width: calc((100% - 72px) / 4);
+  width: 271.5px;
 }
 /* section 3 */
 .sec-team{
@@ -199,7 +199,6 @@ letter-spacing: 0.02em;
 text-align: center;
 color: #2e2f42;
 text-transform: capitalize;
-text-align: center;
 margin-bottom: 72px;
 }
 .secteam-list{
@@ -213,7 +212,7 @@ margin-bottom: 72px;
     text-align: center;
     display: flex;
     padding: 32px 16px;
-    width: calc((100% - 72px) / 4); 
+    width: 271.5px;
     border-radius: 0px 0px 4px 4px;
 }
 .team-container{
@@ -232,6 +231,7 @@ margin-bottom: 8px;
 .team-listt{
     display: flex;
     gap: 24px;
+   
 }
 .team-item{
     font-family: "Roboto", sans-serif;
@@ -245,6 +245,9 @@ color: #434455;
 
 
 /* section 4 */
+.section-portfolio{
+    padding: 120px 0;
+}
 .portfolio{
     font-family: "Roboto", sans-serif;
 font-weight: 700;
@@ -254,8 +257,22 @@ letter-spacing: 0.02em;
 text-align: center;
 color: #2e2f42;
 text-transform: capitalize;
+margin-bottom: 72px;
 }
-
+.portfolio-ul{
+    display: flex;
+   flex-wrap: wrap;
+   column-gap: 24px;
+   row-gap: 48px;
+}
+.portfolio-li{
+    width: 370px;
+}
+.portfolio-container{
+    border: 1px solid #e7e9fc;
+    border-top: none;
+    padding: 16px 32px;
+}
 .portf-list{
     font-family: "Roboto", sans-serif;
 font-weight: 500;

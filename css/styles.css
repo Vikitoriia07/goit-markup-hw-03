@@ -255,7 +255,8 @@ color: #434455;
 
 /* section 4 */
 .section-portfolio{
-    padding: 120px 0;
+    padding: 120px 156px;
+    width: 1128px;
 }
 .portfolio{
     font-family: "Roboto", sans-serif;
@@ -273,10 +274,11 @@ margin-bottom: 72px;
    flex-wrap: wrap;
    column-gap: 24px;
    row-gap: 48px;
+   margin: auto;
 }
 .portfolio-li{
   width: calc((100% - 48px) / 3);
-  display: block;
+  display: block; 
   row-gap: 48px;
  
   

@@ -14,10 +14,11 @@ a {
 }
 img{
     display: block;
+    max-width: 100%; 
+   height: auto;
 }
 /* header */
 .container{
-    display: flex;
     width: 1158px;
     margin: auto;
     padding: 0px 15px;
@@ -95,6 +96,7 @@ color: #434455;
 .hero{
     background-color: #2e2f42;
     padding: 188px 0;
+   text-align:center;
 }
 
 
@@ -107,8 +109,8 @@ letter-spacing: 0.02em;
 text-align: center;
 color: #fff;
 max-width: 496px;
-margin-bottom: 48px;
 
+margin: auto;
 }
 .hero-button{
     font-family: "Roboto", sans-serif;
@@ -126,19 +128,16 @@ cursor: pointer;
 }
 
 .hero-button{
-    display: block;
-align-items: flex-start;
-justify-content: flex-start;
-flex-direction: row;
-gap: 10px;
+   gap: 10px;
 border-radius: 4px;
 padding-block: 16px;
 padding-inline: 32px;
 min-width: 169px;
 height: 56px;
 border:none;
-margin-top: 48px 0px;
+margin-top: 48px;
 }
+
 /*section 2   */
 .benefits-section{
     padding: 120px 0;
@@ -160,6 +159,7 @@ overflow: hidden;
 .benefits-list{
     display: flex;
     gap: 24px;
+    padding-left: 0;
 }
 .benefits{
     font-weight: 500;
@@ -180,7 +180,7 @@ color: #434455;
 
 }
 .benefits-li{
-  width: 271.5px;
+  width: calc((100% - 72px)/4);
 }
 /* section 3 */
 .sec-team{
@@ -200,6 +200,9 @@ text-align: center;
 color: #2e2f42;
 text-transform: capitalize;
 margin-bottom: 72px;
+margin-top: 120px;
+justify-content: center;
+
 }
 .secteam-list{
     display: flex;
@@ -230,6 +233,9 @@ margin-bottom: 8px;
 .team-listt{
     display: flex;
     gap: 24px;
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
    
 }
 .team-item{
@@ -267,6 +273,8 @@ margin-bottom: 72px;
 .portfolio-li{
   width: calc((100% - 48px) / 3);
   display: block;
+  row-gap: 48px;
+ 
   
 }
 .portfolio-container{

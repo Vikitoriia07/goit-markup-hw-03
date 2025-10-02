@@ -24,6 +24,9 @@ img{
     padding: 0px 15px;
 
 }
+.header>.container{
+    display: flex;
+}
 .header{
     border-bottom: 1px solid #e7e9fc;
 }
@@ -128,14 +131,15 @@ cursor: pointer;
 }
 
 .hero-button{
-   gap: 10px;
+   display: block;
+    gap: 10px;
 border-radius: 4px;
 padding-block: 16px;
 padding-inline: 32px;
 min-width: 169px;
 height: 56px;
 border:none;
-margin-top: 48px;
+margin: 48px auto;
 }
 
 /*section 2   */

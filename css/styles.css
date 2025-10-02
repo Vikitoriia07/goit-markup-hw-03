@@ -8,8 +8,8 @@ body{
 
 ul, ol {
     list-style-type: none;
-    margin:auto;
-   
+    margin: 0;
+   padding-left: 0;
 }
 a {
     text-decoration: none;
@@ -258,8 +258,7 @@ color: #434455;
 /* section 4 */
 .section-portfolio{
     padding: 120px 0;
-    width: 1128px;
-    margin: auto;
+   margin: auto;
 }
 .portfolio{
     font-family: "Roboto", sans-serif;
